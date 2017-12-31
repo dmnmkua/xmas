@@ -16,6 +16,7 @@ function init() {
       balls.forEach(ball => {
         ball.setAttribute('fill-opacity', '1');
       })
+      clearInterval(interval);
     }
   }, timeInterval);
 
@@ -43,6 +44,6 @@ function init() {
   }, timeInterval * xmasTree.getAttribute('stroke-dasharray'));
 
   function fireworks() {
-    
+
   }
 }
